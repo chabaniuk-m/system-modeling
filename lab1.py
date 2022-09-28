@@ -7,7 +7,7 @@ import numpy as np
 
 matplotlib.use('TkAgg')
 
-f = open("C:\\Users\\Admin\\Desktop\\education\\МС\\Lab_model_systems_student\\Lab_model_systems_student\\Lab1\\f11.txt")
+f = open("f11.txt")
 y = np.array(list(map(float, f.read().split(" "))))
 
 
